@@ -25,7 +25,7 @@ These scripts convert four popular question answering datasets into a common for
 In the following sections, we guide you through converting TriviaQA, Natural Question, QuAC, and NewsQA into a SQuAD 2.0 format.
 
 ---
-##TriviaQA
+## TriviaQA
 
 **Step 1**
 
@@ -69,7 +69,7 @@ This will return two files **triviaqa_train.json** and **triviaqa_dev.json** in 
 
 
 ---
-##Natural Questions
+## Natural Questions
 
 **Step 1**
 
@@ -97,7 +97,7 @@ python nq_to_squad.py --nq_dir dev/ --output_file nq_dev.json
 This will return two files **nq_train.json** and **nq_dev.json** in the SQuAD 2.0 format.
 
 ---
-##QuAC
+## QuAC
 
 **Step 1**
 
@@ -124,7 +124,7 @@ python quac_to_squad.py --quac_file val_v0.2.json --output_file quac_dev.json
 This will return two files **quac_train.json** and **quac_dev.json** in the SQuAD 2.0 format.
 
 ---
-##NewsQA
+## NewsQA
 
 **Step 1**
 
@@ -151,7 +151,7 @@ python newsqa_to_squad.py --newsqa_file split_data/dev.csv --output_file newsqa_
 ```
 
 ---
-##Acknowledgements
+## Acknowledgements
 
 Our TriviaQA script modifies code released in [TrivaiQA repo](https://github.com/mandarjoshi90/triviaqa/) In particular, we take inspiration from [convert_to_squad_format.py](https://github.com/mandarjoshi90/triviaqa/blob/master/utils/convert_to_squad_format.py) for all our scripts.
 
@@ -160,6 +160,6 @@ We also use modified code from the [Nautral Question browser script](https://git
 We are thankful to the authors for making this code available. 
 
 ---
-##License
+## License
 
 This code is licensed under the Apache License, Version 2.0.
