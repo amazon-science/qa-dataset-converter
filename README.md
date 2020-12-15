@@ -163,3 +163,24 @@ We are thankful to the authors for making this code available.
 ## License
 
 This code is licensed under the Apache License, Version 2.0.
+
+---
+## Citation
+If you use your code, please cite us!
+
+```
+@inproceedings{sen-saffari-2020-models,
+    title = "What do Models Learn from Question Answering Datasets?",
+    author = "Sen, Priyanka  and
+      Saffari, Amir",
+    booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.emnlp-main.190",
+    doi = "10.18653/v1/2020.emnlp-main.190",
+    pages = "2429--2438",
+}
+
+```
