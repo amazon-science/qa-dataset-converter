@@ -166,7 +166,7 @@ This code is licensed under the Apache License, Version 2.0.
 
 ---
 ## Citation
-If you use your code, please cite us!
+If you use our code, please cite us!
 
 ```
 @inproceedings{sen-saffari-2020-models,
